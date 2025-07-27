@@ -1,53 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechCon 2024 - The Premier Technology Conference</title>
-    <meta name="description" content="Join us for TechCon 2024, the leading technology conference featuring industry experts, innovative workshops, and networking opportunities.">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Welcome to TechCon 2024</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <h1>TechCon 2024</h1>
-        <nav aria-label="Main navigation">
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="schedule.html">Schedule</a></li>
-                <li><a href="register.html">Register</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section id="intro" aria-labelledby="intro-heading">
-            <h2 id="intro-heading">Welcome to TechCon 2024</h2>
-            <p>TechCon 2024 is the premier annual technology conference bringing together industry leaders, innovators, and enthusiasts from around the globe. Join us October 15-17 in San Francisco for three days of inspiring keynotes, hands-on workshops, and unparalleled networking opportunities.</p>
-            
-            <div class="video-container">
-                <video controls aria-label="TechCon 2024 promotional video">
-                    <source src="techcon-promo.mp4" type="video/mp4">
-                    <source src="techcon-promo.webm" type="video/webm">
-                    <track src="subtitles-en.vtt" kind="subtitles" srclang="en" label="English">
-                    Your browser does not support the video tag. <a href="techcon-promo.mp4">Download the video</a> instead.
-                </video>
-                <p><a href="transcript.txt">Video transcript</a></p>
-            </div>
-        </section>
+  <!-- Header -->
+  <header>
+    <h1>TechCon 2024</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <section id="highlights" aria-labelledby="highlights-heading">
-            <h2 id="highlights-heading">Conference Highlights</h2>
-            <ul>
-                <li>Keynote speeches from tech industry pioneers</li>
-                <li>Interactive workshops on emerging technologies</li>
-                <li>Networking opportunities with professionals</li>
-                <li>Exhibition of cutting-edge tech innovations</li>
-            </ul>
-        </section>
-    </main>
+  <!-- Main Content -->
+  <main>
+    <!-- Introduction Section -->
+    <section>
+      <h2>Welcome to TechCon 2024</h2>
+      <p>Join us for one of the most exciting and innovative tech conferences of the year, where industry leaders, developers, and entrepreneurs come together to shape the future of technology.</p>
+    </section>
 
-    <footer>
-        <p>copyright © 2024 TechCon Conference. All rights reserved.</p>
-    </footer>
+    <!-- Highlights Section -->
+    <section>
+      <h2>Conference Highlights</h2>
+      <ul>
+        <li>Keynotes from world-class tech leaders</li>
+        <li>Hands-on workshops and breakout sessions</li>
+        <li>Networking opportunities with global professionals</li>
+        <li>Startup pitch competitions and exhibitions</li>
+      </ul>
+    </section>
+
+    <!-- Embedded Video Section -->
+    <section>
+      <h2>Watch Our Highlights from Last Year</h2>
+      <div class="video-container">
+        <iframe 
+          width="560" 
+          height="315" 
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+          title="TechCon Highlights Video" 
+          frameborder="0" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 TechCon. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
